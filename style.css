@@ -357,7 +357,37 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  transform: translateY(-10px);
+  animation-duration: 2s;
+}
+.bounce {
+  animation-name: bounce;
+  animation-timing-function: ease;
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.bounce2 {
+  animation-name: bounce2;
+  animation-timing-function: ease;
+}
+@keyframes bounce2 {
+  0% {
+    transform: translateY(-50px);
+  }
+  50% {
+    transform: translateY(-25px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 .testimonial {
   padding: 1.5rem;
