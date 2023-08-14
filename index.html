@@ -3,8 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Burger Truck</title>
+    <title>Burger Bite</title>
     <link rel="stylesheet" href="./style.css" />
+    <!-- FavIcon CSS -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <!-- OG (Open Graph Data) -->
     <meta property="og:title" content="burger" />
     <meta property="og:type" content="website" />
@@ -22,6 +24,8 @@
       src="https://kit.fontawesome.com/9eb162ac0d.js"
       crossorigin="anonymous"
     ></script>
+    <!-- Main JavaScript -->
+    <script src="./main.js" defer></script>
   </head>
   <body>
     <!-- Header Start -->
@@ -65,14 +69,15 @@
       <div class="main-container">
         <div class="main-title">
           <h1>
-            The best burgers you <br />
-            will ever find!
+            The best burgers <br />
+            you will ever find!
           </h1>
           <p>
             Everyone has their perfect match. Sometimes it’s just around the
             corner, other times you have to travel the world in search of it.
             Wherever your perfect cheeseburger is, it’s out there.
           </p>
+          <span>About Us <i class="fa-solid fa-arrow-right"></i></span>
         </div>
       </div>
     </header>
@@ -87,7 +92,7 @@
       </div>
       <div class="about-right-box">
         <img src="./assets/food-truck.png" alt="food-truck" />
-        <p>SINCE 2023</p>
+        <h3>SINCE 2023</h3>
         <h1>Epic Foodtruck</h1>
         <p>
           Our cheeseburgers come in all kinds of manifestations, but we want
@@ -204,6 +209,14 @@
           truck and catering will fulfill your distinct event needs with
           excitement and creativity.
         </p>
+        <div class="btn-box">
+          <a href="#location">
+            <button class="btn-left">LOCATE THE TRUCK</button>
+          </a>
+          <a href="#contact">
+            <button class="btn-right">BOOK OUR TRUCK</button>
+          </a>
+        </div>
       </div>
     </section>
     <!-- Feature Section End-->
