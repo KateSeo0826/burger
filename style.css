@@ -677,7 +677,7 @@ textarea {
     display: block;
   }
   .main-banner-section .main-background-overlay {
-    height: 63%;
+    height: 68%;
   }
   .header-menu.open {
     display: flex;
@@ -687,12 +687,12 @@ textarea {
   }
   .main-title h1 {
     width: 100%;
-    padding: 1rem;
+    padding: 1.5rem;
     font-size: 4rem;
   }
   .main-title p {
-    width: 100%;
-    padding: 1rem;
+    width: 80%;
+    padding: 1.5rem;
   }
   .main-title span {
     padding: 1rem;
@@ -703,6 +703,7 @@ textarea {
   .card-container {
     max-width: 1000px;
   }
+  .offer-section .container,
   .menu-section .container,
   .feature-section .container,
   .testimonial-section .container,
@@ -715,7 +716,7 @@ textarea {
   .contact-section .container {
     max-width: 1000px;
     margin: 0 auto;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-start;
   }
 }
