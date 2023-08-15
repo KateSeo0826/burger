@@ -2,14 +2,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap");
+@import url("https://fonts.cdnfonts.com/css/super-funtime");
+@import url("https://fonts.cdnfonts.com/css/super-funky");
 @font-face {
-  font-family: "Goudy Old Style";
-  src: local("Goudy Old Style Regular"),
-    url("./assets/fonts/Goudy Old Style Regular.ttf") format("ttf");
+  font-family: "Super Woobly";
+  src: local("Super Woobly Regular"),
+    url("./assets/fonts/Super Woobly.ttf") format("ttf");
   font-style: normal;
   font-weight: normal;
 }
-
 /*==========Fonts CSS End==========*/
 :root {
   --navbar-width: 300px;
@@ -22,9 +23,8 @@
   margin: 0;
 }
 body {
-  font-family: "Playfair Display", serif;
+  font-family: "Super Funtime", sans-serif;
 }
-
 li,
 ul,
 a {
@@ -42,13 +42,12 @@ a {
   color: #dddddd;
 }
 .header-container {
-  font-family: "Cabin", sans-serif;
   max-width: 1280px;
   display: flex;
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
-  font-weight: bold;
+  font-size: 1.5rem;
 }
 .header-logo a {
   text-decoration: none;
@@ -79,12 +78,12 @@ a {
   opacity: 0.8;
 }
 .main-banner-section .main-background-overlay {
-  height: 89.4%;
+  height: 89.5%;
   width: 100%;
   top: 0;
   left: 0;
   position: absolute;
-  padding: 18% 0% 27% 0%;
+  padding: 18% 0% 27.5% 0%;
   filter: brightness(100%) contrast(100%) saturate(100%) blur(0px)
     hue-rotate(0deg);
 }
@@ -129,20 +128,18 @@ a {
 .main-title h1 {
   position: relative;
   width: 55%;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 3.75rem;
   line-height: 1;
 }
 .main-title p {
   width: 40%;
   font-size: 1.25rem;
-  font-family: "Cabin", sans-serif;
   margin: 1rem 0;
   line-height: 1.5em;
 }
 .main-title span {
   padding: 0.75rem 0;
-  font-family: "Cabin", sans-serif;
   border-bottom: 2px solid #d9d1c0;
 }
 .about-section {
@@ -187,6 +184,7 @@ a {
   font-size: 2.5rem;
 }
 .about-right-box button {
+  font-family: "Super Funtime", sans-serif;
   padding: 1rem 1.5rem;
   color: #f6f4f0;
   background-color: #1f1d16;
@@ -276,6 +274,9 @@ a {
 .menu-card h2 {
   padding: 1rem 0;
   font-weight: bold;
+}
+.menu-card p {
+  font-family: "Cabin", sans-serif;
 }
 .menu-card span {
   font-size: 2rem;
@@ -372,6 +373,7 @@ a {
   transition-duration: 0.3s;
 }
 .btn-left {
+  font-family: "Super Funtime", sans-serif;
   width: 200px;
   position: relative;
   color: #1f1d16;
@@ -384,6 +386,7 @@ a {
   border: none;
 }
 .btn-right {
+  font-family: "Super Funtime", sans-serif;
   width: 200px;
   position: relative;
   background-color: transparent;
@@ -399,7 +402,6 @@ a {
   background-color: #f6f4f0;
   color: #1d1d1d;
   margin: 0 auto 5rem;
-  font-family: "Roboto", sans-serif;
 }
 .schedule-section-title {
   padding: 3rem 0;
@@ -420,6 +422,13 @@ a {
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
   margin: 0px 20px 20px 0px;
   padding: 20px 20px 30px 20px;
+}
+.schedule-box > span {
+  font-family: "Roboto", sans-serif;
+}
+.schedule-box p:nth-of-type(2),
+.schedule-box p:nth-of-type(3) {
+  font-family: "Roboto", sans-serif;
 }
 .schedule-box img {
   width: 50px;
@@ -575,26 +584,25 @@ a {
   margin: 1rem 0;
 }
 .contact-box-1 p {
-  color: #1d1d1d;
   font-family: "Roboto", sans-serif;
   margin: 2rem 1rem;
+  color: #1d1d1d;
   line-height: 1.5;
   font-weight: 300;
 }
 .contact-box-1 span {
   display: block;
-  font-family: "Roboto", sans-serif;
+  margin: 0;
   font-size: 1.5rem;
   font-weight: 300px;
-  margin: 0;
 }
 input[type="email"],
 input[type="number"],
 input[type="password"],
 input[type="text"],
 textarea {
+  font-family: "Super Funtime", sans-serif;
   height: auto;
-  font-family: "Roboto", sans-serif;
   background: #f6f4f0;
   color: #1d1d1d;
   border: 1px solid #d9d1c0;
@@ -612,6 +620,7 @@ textarea {
   padding: 1rem 1rem;
 }
 .contact-form button {
+  font-family: "Super Funtime", sans-serif;
   width: 264px;
   padding: 1.25rem 2rem;
   background: #f6f4f0;
@@ -805,7 +814,6 @@ textarea {
     align-items: center;
   }
 }
-
 /* Responsive 820px End*/
 /* Responsive 598px Start*/
 @media screen and (max-width: 598px) {
