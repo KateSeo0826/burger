@@ -99,7 +99,7 @@ a {
 .navbar-toggleBtn {
   display: none;
   color: #ffffff;
-  font-size: 1.7rem;
+  font-size: 2rem;
   position: absolute;
   left: 1rem;
   top: 1rem;
@@ -675,6 +675,8 @@ textarea {
   }
   .navbar-toggleBtn {
     display: block;
+    top: 2.5rem;
+    left: 1.5rem;
   }
   .main-banner-section .main-background-overlay {
     height: 67.6%;
