@@ -677,7 +677,10 @@ textarea {
     display: block;
   }
   .main-banner-section .main-background-overlay {
-    height: 68%;
+    height: 67.6%;
+  }
+  .main-background-overlay.responsive {
+    height: 85.3%;
   }
   .header-menu.open {
     display: flex;
@@ -696,6 +699,7 @@ textarea {
   }
   .main-title span {
     padding: 1rem;
+    margin-left: 1rem;
   }
   .contact-form input {
     width: 540px;
@@ -731,7 +735,10 @@ textarea {
     width: 100%;
   }
   .main-banner-section .main-background-overlay {
-    height: 83%;
+    height: 89.4%;
+  }
+  .main-background-overlay.responsive {
+    height: 113%;
   }
   .about-img {
     width: 780px;
@@ -825,11 +832,11 @@ textarea {
 /* Responsive 820px End*/
 /* Responsive 598px Start*/
 @media screen and (max-width: 598px) {
-  .main-banner-section {
-    padding: 0% 0% 10% 0%;
-  }
   .main-banner-section .main-background-overlay {
-    padding: 103% 0% 100% 0%;
+    height: 121%;
+  }
+  .main-background-overlay.responsive {
+    height: 157.1%;
   }
   .main-title h1 {
     padding: 1.5rem;
