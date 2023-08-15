@@ -1,16 +1,6 @@
 /*==========Fonts CSS Start==========*/
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap");
 @import url("https://fonts.cdnfonts.com/css/super-funtime");
-@import url("https://fonts.cdnfonts.com/css/super-funky");
-@font-face {
-  font-family: "Super Woobly";
-  src: local("Super Woobly Regular"),
-    url("./assets/fonts/Super Woobly.ttf") format("ttf");
-  font-style: normal;
-  font-weight: normal;
-}
 /*==========Fonts CSS End==========*/
 :root {
   --navbar-width: 300px;
@@ -78,7 +68,7 @@ a {
   opacity: 0.8;
 }
 .main-banner-section .main-background-overlay {
-  height: 89.5%;
+  height: 94%;
   width: 100%;
   top: 0;
   left: 0;
@@ -661,6 +651,11 @@ textarea {
 }
 
 /* Footer Section End */
+@media screen and (max-width: 1366px) {
+  .main-banner-section .main-background-overlay {
+    height: 78.5%;
+  }
+}
 /* Responsive 1024px Start */
 @media screen and (max-width: 1024px) {
   .header .header-container {
@@ -680,6 +675,9 @@ textarea {
   }
   .navbar-toggleBtn {
     display: block;
+  }
+  .main-banner-section .main-background-overlay {
+    height: 63%;
   }
   .header-menu.open {
     display: flex;
@@ -702,10 +700,20 @@ textarea {
   .contact-form input {
     width: 540px;
   }
+  .card-container {
+    max-width: 1000px;
+  }
+  .menu-section .container,
+  .feature-section .container,
+  .testimonial-section .container,
+  .schedule-section .container {
+    max-width: 1000px;
+  }
   .contact-box-1 {
     padding: 0 1rem;
   }
   .contact-section .container {
+    max-width: 1000px;
     margin: 0 auto;
     justify-content: center;
     align-items: flex-start;
@@ -738,7 +746,6 @@ textarea {
   .about-section {
     flex-direction: column;
   }
-
   .menu-card {
     max-width: 600px;
     flex-direction: column;
@@ -821,7 +828,7 @@ textarea {
     padding: 0% 0% 10% 0%;
   }
   .main-banner-section .main-background-overlay {
-    padding: 84.5% 0% 80% 0%;
+    padding: 103% 0% 100% 0%;
   }
   .main-title h1 {
     padding: 1.5rem;
@@ -854,6 +861,13 @@ textarea {
     margin: 5rem auto;
     flex-direction: column;
     gap: 1rem;
+  }
+  .gallery-item-1,
+  .gallery-item-2,
+  .gallery-item-3,
+  .gallery-item-4 {
+    width: 300px;
+    height: 400px;
   }
   .menu-section,
   .feature-section {
