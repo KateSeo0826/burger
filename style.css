@@ -178,7 +178,7 @@ a {
   padding: 1rem 1.5rem;
   color: #f6f4f0;
   background-color: #1f1d16;
-  border-style: none;
+  border: none;
 }
 .about-right-box button a {
   color: #f6f4f0;
