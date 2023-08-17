@@ -292,6 +292,10 @@ a {
 .menu-description-box {
   padding: 2rem 3rem;
 }
+.menu-description-box h2,
+.menu-card span {
+  font-family: Gilroy-Heavy;
+}
 .menu-card h2 {
   padding: 1rem 0;
   font-weight: bold;
@@ -380,6 +384,10 @@ a {
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
   margin: 0px 20px 20px 0px;
   padding: 20px 20px 30px 20px;
+}
+.schedule-box p:nth-of-type(1),
+.schedule-box h2 {
+  font-family: Gilroy-Heavy;
 }
 .schedule-box > span {
   font-family: Gilroy-Regular;
@@ -511,8 +519,11 @@ a {
   display: flex;
   flex-direction: column;
 }
-.location-left-box h2,
+.location-left-box h2 {
+  font-size: 4rem;
+}
 .contact-box-1 h2 {
+  font-family: Gilroy-Heavy;
   font-size: 4rem;
 }
 .icon-box {
@@ -549,6 +560,7 @@ a {
   font-weight: 300;
 }
 .contact-box-1 span {
+  font-family: Gilroy-Heavy;
   display: block;
   margin: 0;
   font-size: 1.5rem;
