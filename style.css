@@ -633,12 +633,6 @@ textarea {
   margin: 0.5rem 0;
 }
 
-/* Footer Section End */
-@media screen and (max-width: 1366px) {
-  .main-banner-section .main-background-overlay {
-    height: 78.5%;
-  }
-}
 /* Responsive 1024px Start */
 @media screen and (max-width: 1024px) {
   .header .header-container {
