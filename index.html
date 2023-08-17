@@ -15,12 +15,9 @@
       property="og:image"
       content="https://kateseo0826.github.io/burger/assets/og.webp"
     />
+    <!--Font Super Funky CDN-->
+    <link href="https://fonts.cdnfonts.com/css/super-funky" rel="stylesheet" />
     <!--Font Awesome Icon CDN-->
-    <link
-      href="https://fonts.cdnfonts.com/css/super-funtime"
-      rel="stylesheet"
-    />
-
     <link
       rel="stylesheet"
       href="path/to/font-awesome/css/font-awesome.min.css"
@@ -34,16 +31,15 @@
   </head>
   <body>
     <!-- Header Start -->
-    <header class="header main-banner-section">
-      <div class="main-background-overlay"></div>
+    <header class="header">
       <!-- Navbar Start -->
+      <!-- Site Logo Start -->
       <div class="header-container">
-        <!-- Site Logo Start -->
         <div class="header-logo">
           <a href="#">
             <img
               class="header-logo-img"
-              src="./assets/bite_black_white.png"
+              src="./assets/logo_neon_black.png"
               alt="logo"
             />
           </a>
@@ -70,7 +66,9 @@
         </nav>
         <!-- Navbar Start -->
       </div>
-      <!-- Header End -->
+    </header>
+    <!-- Header End -->
+    <section class="main-banner-section">
       <div class="main-container">
         <div class="main-title">
           <h1>
@@ -82,10 +80,10 @@
             corner, other times you have to travel the world in search of it.
             Wherever your perfect cheeseburger is, it’s out there.
           </p>
-          <span>About Us <i class="fa-solid fa-arrow-right"></i></span>
         </div>
+        <div class="main-image"><img src="assets/bitezzz_main_01.png" /></div>
       </div>
-    </header>
+    </section>
     <!-- About Section Start -->
     <section id="about" class="about-section">
       <div class-="about-left-box">
@@ -96,7 +94,11 @@
         />
       </div>
       <div class="about-right-box">
-        <img src="./assets/food-truck.png" alt="food-truck" />
+        <img
+          class="logo-img"
+          src="./assets/logo_black_white.png"
+          alt="logo_black"
+        />
         <h3>SINCE 2023</h3>
         <h1>Epic Foodtruck</h1>
         <p>
@@ -112,13 +114,15 @@
     <!-- About Section End -->
     <!-- Menu Section Start -->
     <section id="menu" class="menu-section">
-      <div class="container">
-        <img class="menu-image" src="./assets/menu.png" alt="menu" />
-        <h3>Menu</h3>
-        <h2>Explore Our Menu</h2>
+      <div class="menu-container">
+        <img class="logo-image" src="./assets/logo_black.png" alt="menu" />
+        <h2>
+          Explore Our <br />
+          Menu
+        </h2>
         <p>
-          Finally, cheeseburgers are incapable of telling lies or hurting you.
-          On the flip side, they can still Rick Roll you.
+          Finally, cheeseburgers are incapable of telling lies <br />or hurting
+          you. On the flip side, they can still Rick Roll you.
         </p>
       </div>
       <div class="menu-box container">
@@ -160,9 +164,8 @@
     <!-- Menu Section End -->
     <!-- Feature Section -->
     <section class="feature-section">
-      <div class="container">
-        <img class="menu-image" src="./assets/burger-logo.png" alt="menu" />
-        <h3>FEATURES</h3>
+      <div class="feature-container">
+        <img class="logo-img" src="./assets/logo_blue.png" alt="logo" />
         <h2>What We Do</h2>
         <p>
           The palatable sensation we lovingly refer to as The Cheeseburger has a
@@ -170,10 +173,13 @@
           only to rise to well-seasoned greatness.
         </p>
       </div>
-      <div class="menu-select-box container">
+      <div class="menu-select-box">
         <div class="menu-gallery">
-          <div class="gallery-item gallery-item-1">
-            <div class="gallery-img-overlay"></div>
+          <div class="gallery-item">
+            <img class="gallery-img" src="./assets/burger6.jpg" alt="burger" />
+            <span>Burgers</span>
+          </div>
+          <div class="gallery-item">
             <img
               class="gallery-img"
               src="./assets/starters.jpg"
@@ -181,32 +187,18 @@
             />
             <span>Starters</span>
           </div>
-          <div class="gallery-item gallery-item-2">
-            <div class="gallery-img-overlay"></div>
-            <img class="gallery-img" src="./assets/burger6.jpg" alt="burger" />
-            <span>Burgers</span>
-          </div>
-          <div class="gallery-item gallery-item-3">
-            <div class="gallery-img-overlay"></div>
-            <img class="gallery-img" src="./assets/dessert.jpg" alt="dessert" />
-            <span>Desserts</span>
-          </div>
-          <div class="gallery-item gallery-item-4">
-            <div class="gallery-img-overlay"></div>
-            <img class="gallery-img" src="./assets/drinks.jpg" alt="drinks" />
-            <span>Drinks</span>
+          <div class="gallery-item">
+            <img class="gallery-img" src="./assets/dessert.jpg" alt="menu" />
+            <span>Set Menu</span>
           </div>
         </div>
       </div>
     </section>
+    <!-- Feature Section End-->
+    <!-- Offer Section Start-->
     <section class="offer-section">
-      <div class="offer-image-overlay"></div>
       <div class="container">
-        <img
-          class="menu-image offer-burger"
-          src="./assets/burger-menu.png"
-          alt="menu"
-        />
+        <img class="logo-img" src="./assets/logo_black_purple.png" alt="logo" />
         <h3>CATERING</h3>
         <h2>What We Offer</h2>
         <p>
@@ -224,7 +216,7 @@
         </div>
       </div>
     </section>
-    <!-- Feature Section End-->
+    <!-- Offer Section End-->
     <!-- Schedule Section Start -->
     <section id="location" class="schedule-section">
       <div class="container">
@@ -358,7 +350,7 @@
     <!-- Testimonial Section Start -->
     <section class="testimonial-section">
       <div class="container">
-        <img class="menu-image" src="./assets/bubble.png" alt="menu" />
+        <img class="logo-img" src="./assets/logo_black_white.png" alt="menu" />
         <h3>TESTIMONIALS</h3>
         <h2>Hear From Our Customers</h2>
         <p>
@@ -485,6 +477,7 @@
         </div>
         <div class="footer-logo">
           <img src="./assets/bite_blackwhite.png" />
+          <p>BITEZZZ BURGER SINCE 2023</p>
         </div>
         <div class="footer-box-2">
           <h2>Information</h2>
